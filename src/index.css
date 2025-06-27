@@ -1,15 +1,6 @@
-.navbar-toggler {
-  border-color: #ffffff;
-  /* cambia colore bordo */
-}
-
-.navbar-toggler:hover {
-  background-color: #fca90f;
-
-}
-
 body {
   font-family: "Varela Round", sans-serif !important;
   font-weight: 400 !important;
   font-style: normal;
+
 }

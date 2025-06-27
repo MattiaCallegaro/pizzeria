@@ -10,11 +10,6 @@ const Header = () => {
             alt="logo"
             className="d-block mx-auto"
             style={{ width: '15%', height: 'auto' }} /></NavLink>
-          <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
         </div>
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
