@@ -11,8 +11,7 @@ const Footer = () => {
           <a href="/" className="text-light mx-2 text-decoration-none">Home</a>
           |
           <a href="/menu" className="text-light mx-2 text-decoration-none">Menu</a>
-          |
-          <a href="/contatti" className="text-light mx-2 text-decoration-none">Contatti</a>
+          
         </div>
         <p className="mt-3 mb-0">&copy; {new Date().getFullYear()} Pizzeria Bella Napoli. Tutti i diritti riservati.</p>
       </div>

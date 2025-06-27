@@ -15,21 +15,21 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="/ivan-torres-MQUqbmszGGM-unsplash.jpg"
-           className="d-block mx-auto"
-           style={{ width: '50%', height: 'auto' }}
-           alt="Pizza 1" />
+            className="d-block mx-auto"
+            style={{ width: '60%', height: 'auto' }}
+            alt="Pizza 1" />
         </div>
         <div className="carousel-item">
           <img src="/pexels-fariphotography-905847.jpg"
-           className="d-block mx-auto"
-           style={{ width: '50%', height: 'auto' }} 
-           alt="Interno pizzeria" />
+            className="d-block mx-auto"
+            style={{ width: '60%', height: 'auto' }}
+            alt="Interno pizzeria" />
         </div>
         <div className="carousel-item">
-          <img src="/pexels-brettjordan-842519.jpg" 
-          className="d-block mx-auto"
-          style={{ width: '50%', height: 'auto' }}
-          alt="Pizza ingredienti" />
+          <img src="/pexels-brettjordan-842519.jpg"
+            className="d-block mx-auto"
+            style={{ width: '60%', height: 'auto' }}
+            alt="Pizza ingredienti" />
         </div>
       </div>
 
