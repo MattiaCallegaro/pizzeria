@@ -8,10 +8,10 @@ import Main from '../components/Main';
 
 const HomePage = () => {
   return (
-    <div>       
-        <Header/>
-    <Main />   
-    <Footer/>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 };

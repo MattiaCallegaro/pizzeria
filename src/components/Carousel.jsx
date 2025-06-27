@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carousel = () => {
   return (
-    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" className="carousel slide mt-5" data-bs-ride="carousel">
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
           className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -15,20 +15,20 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="/ivan-torres-MQUqbmszGGM-unsplash.jpg"
-            className="d-block mx-auto"
-            style={{ width: '60%', height: 'auto' }}
+            className="d-block mx-auto img-fluid rounded"
+            style={{ width: '75%', height: 'auto' }}
             alt="Pizza 1" />
         </div>
         <div className="carousel-item">
           <img src="/pexels-fariphotography-905847.jpg"
-            className="d-block mx-auto"
-            style={{ width: '60%', height: 'auto' }}
+            className="d-block mx-auto img-fluid rounded"
+            style={{ width: '75%', height: 'auto' }}
             alt="Interno pizzeria" />
         </div>
         <div className="carousel-item">
           <img src="/pexels-brettjordan-842519.jpg"
-            className="d-block mx-auto"
-            style={{ width: '60%', height: 'auto' }}
+            className="d-block mx-auto img-fluid rounded"
+            style={{ width: '75%', height: 'auto' }}
             alt="Pizza ingredienti" />
         </div>
       </div>
